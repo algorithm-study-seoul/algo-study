@@ -23,17 +23,6 @@ void show() {
 	}
 }
 
-// 게임한번 진행시키고 max값을 찾아서 반환
-int find_max() {
-	int MAX = 0;
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
-			if (CMAP[i][j] > MAX) MAX = CMAP[i][j];
-		}
-	}
-	return MAX;
-}
-
 // 맵의 N의 크기에 맞게 0을 붙여주는 함수
 vector<int> plus_zero(vector<int> temp) {
 	int size = N - temp.size();
