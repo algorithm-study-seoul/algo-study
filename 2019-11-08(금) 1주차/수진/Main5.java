@@ -1,4 +1,3 @@
-package N��M;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -53,7 +52,7 @@ public class Main5 {
 		}
 		
 		
-		//�ߺ��Ǹ� �ȵȴ�.
+		//Áßº¹µÇ¸é ¾ÈµÈ´Ù.
 		//
 		for(int i=1;i<=N;i++) {
 			
