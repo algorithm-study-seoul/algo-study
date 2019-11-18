@@ -11,7 +11,6 @@ long long ans;		// int범위 초과 생각안하면 못해결했을 문제
 vector<int> v;
 int B, C;
 
-
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(nullptr);
